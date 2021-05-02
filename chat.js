@@ -16,9 +16,9 @@ var ChatEngine = function() {
   };
   //Setting user name
   this.setName = function() {
-    name = prompt("Enter your name:", "Chater");
+    name = prompt("Enter your name:", "Gamer");
     if (!name || name === "") {
-      name = "Chater";
+      name = "Gamer";
     }
     name = name.replace(/(<([^>]+)>)/gi, "");
   };
